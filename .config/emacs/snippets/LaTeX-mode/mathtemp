@@ -1,0 +1,47 @@
+# -*- mode: snippet -*-
+# name: Math Notes Template
+# key: mathtemp
+# --
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{mathtools}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{$1}
+\author{$2}
+\date{\today}
+
+% Theorem environments
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{example}{Example}
+\newtheorem{remark}{Remark}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{$3}
+
+\begin{definition}
+$4
+\end{definition}
+
+\begin{theorem}
+$5
+\end{theorem}
+
+\begin{proof}
+$6
+\end{proof}
+
+\end{document}

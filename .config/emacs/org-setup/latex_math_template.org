@@ -1,0 +1,42 @@
+#+OPTIONS: toc:nil
+#+OPTIONS: tex:t
+#+OPTIONS: ^:{}
+
+#+LATEX_COMPILER: lualatex
+
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS: [a4paper, 12pt]
+
+#+LATEX_HEADER: \usepackage[margin=2.5cm]{geometry}
+
+#+LATEX_HEADER: \usepackage{tabularx}
+#+LATEX_HEADER: \usepackage{multicol}
+#+LATEX_HEADER: \usepackage{multirow}
+
+#+LATEX_HEADER: \usepackage{amsfonts}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{amssymb}
+#+LATEX_HEADER: \usepackage{amsthm}
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \usepackage{unicode-math}
+
+#+LATEX_HEADER: \setmainfont{Libertinus Serif}
+#+LATEX_HEADER: \setmathfont{Libertinus Math}
+
+#+LATEX_HEADER: \newtheorem{theorem}{Theorem}[section]
+#+LATEX_HEADER: \newtheorem{lemma}{Lemma}[section]
+#+LATEX_HEADER: \newtheorem{corol}{Corollary}[section]
+#+LATEX_HEADER: \newtheorem{definition}{Definition}[section]
+#+LATEX_HEADER: \newtheorem{proposition}{Proposition}[section]
+#+LATEX_HEADER: \newtheorem*{assertion}{Assertion}
+
+#+LATEX_HEADER: \renewcommand\qedsymbol{QED}
+
+#+LATEX_HEADER: \renewcommand\mbC{\mathbb{C}}
+#+LATEX_HEADER: \renewcommand\mbR{\mathbb{R}}
+#+LATEX_HEADER: \renewcommand\mbQ{\mathbb{Q}}
+#+LATEX_HEADER: \renewcommand\mbZ{\mathbb{Z}}
+#+LATEX_HEADER: \renewcommand\mbZp{\mathbb{Z}_{+}}
+#+LATEX_HEADER: \renewcommand\mbN{\mathbb{N}}
+
+#+LATEX_HEADER: \setlength{\parindent}{0pt}

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: LaTeX theorem block for org mode
+# key: org-latex-theorem
+# --
+#+BEGIN_export latex
+\begin{theorem}
+$0
+\end{theorem}
+#+END_export
+
