@@ -1,3 +1,4 @@
+# Directories
 /transient
 /auto-save-list
 /custom.el
@@ -5,6 +6,9 @@
 /racket-mode
 /eshell
 /eln-cache
+
+# Suffices
+*.bak
 
 # Exclude single files
 /vendor/scribble.el
