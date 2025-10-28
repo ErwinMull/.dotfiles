@@ -64,6 +64,19 @@
   (interactive)
   (find-file (expand-file-name "init.el" user-emacs-directory)))
 
+(defun german-special-char-bonanza (char)
+  "Insert a common german character based on CHAR."
+  (interactive "cLetter: ")
+  (cond ((eq char ?a) (insert "ä"))
+        ((eq char ?o) (insert "ö"))
+        ((eq char ?u) (insert "ü"))
+        ((eq char ?A) (insert "Ä"))
+        ((eq char ?O) (insert "Ö"))
+        ((eq char ?U) (insert "Ü"))
+        ((eq char ?s) (insert "ß"))
+        ((eq char ?S) (insert "ẞ"))
+        (t (error "No german character associated with input!"))))
+
 (defun make-section-comment (name start &optional end)
   "Create a comment indicating a new source code section with
 NAME. START and END are the comment delimiters. END can be
@@ -128,6 +141,8 @@ appropriate value in order for this function to work."
 
 (require 'hl-todo)
 (global-hl-todo-mode +1)
+
+(global-set-key (kbd "C-x /") 'german-special-char-bonanza)
 
 ;;; =============================== VISUALS ====================================
 
