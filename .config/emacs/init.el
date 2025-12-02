@@ -309,7 +309,8 @@ relies on `fill-column'."
                          c-lineup-gcc-asm-reg
                          c-lineup-arglist-tabs-only))))
             ;; additional config
-            (local-set-key (kbd "C-c / r") 'make-c-section-comment)))
+            (local-set-key (kbd "C-c / r") 'make-c-section-comment)
+            (local-set-key (kbd "C-c / c") 'compile)))
 
 (add-hook 'c-mode-hook
           (lambda ()
